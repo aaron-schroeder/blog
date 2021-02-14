@@ -1,0 +1,7 @@
+.vscode/
+notes.txt
+
+# This is where the generated static site lives. Has its own repo.
+# Don't double-dip.
+public/
+resources/

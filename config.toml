@@ -1,0 +1,5 @@
+baseURL = "https://aaron-schroeder.github.io/"
+languageCode = "en-us"
+title = "Aaron Schroeder"
+theme = "hugo_theme_pickles"
+Copyright = "© 2021 Aaron Schroeder"
