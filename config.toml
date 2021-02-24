@@ -64,10 +64,10 @@ Copyright = "&copy; 2021 Aaron Schroeder"
     url = "/tags"
     weight = 3
 
-[[menu.main]]
-    name = "Categories"
-    url = "/categories"
-    weight = 4
+# [[menu.main]]
+    # name = "Categories"
+    # url = "/categories"
+    # weight = 4
 
 [related]
   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
@@ -93,3 +93,9 @@ Copyright = "&copy; 2021 Aaron Schroeder"
   name  = "date"
   weight = 10
   pattern = "2017"
+
+# Allow raw html in markdown files
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
