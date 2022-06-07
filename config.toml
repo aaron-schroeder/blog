@@ -9,7 +9,7 @@ Copyright = "&copy; 2022 Aaron Schroeder"
 
 [params]
   paginate = 10
-  custom_css = ["/css/custom.css"]
+  custom_css = ["/blog/css/custom.css"]
   # Social accounts. Link to these accounts are displayed in the header and
   # footer
   # twitter = "Your Twitter username"
